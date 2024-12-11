@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+position: relative;
+padding-top: 20px;
+
+}
+
+ul {
+    height: 25px;  /* ALTURA */
+    width: 95%;   /* LARGURA */
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    position: fixed;
+}
+
+.img-topo {
+    height: 22px; /* ALTURA */
+}
+
+video {
+    width: 100%;
+    height: 90%;
+}
+
+.capa {
+    position: absolute;
+    bottom: 15%;               /* top-cima, boottom-baixo , left-esquerda , right-direita*/
+    left: 3%;
+    width: 30%;
+    z-index: 3;
+}
+
+.capa-titulo {
+    color: wheat;
+    font-size: 30px; /* tamanha da fonte */
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+
+.capa-descriçao {
+    color: wheat;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.link-assistir {
+    background-color: wheat;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.link-info {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.35);
+    padding: 10px 20px;
+    border-radius:4px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.imagem-carossel {
+    height: 182px;
+}
+
+#carouselExampleControls {
+    background-color: transparent;
+    position: absolute;
+    left: 25px;
+    bottom: -135px;
+}
+
+.titulo-carossel {
+    color: wheat;
+    font-size: 20px;
+}
+
+.botao-som {
+border: none;
+border-radius: 5px; /* arendondar as bordas de um quadrado */
+cursor: pointer; /* pra ficar uma maozinha para clicar em algum botao */
+z-index: 5; /* para ficar na frente das imagens */
+position: absolute; /* posicionamento */
+top: 70px; 
+right: 10px;
+}
+
+.modal {
+ display: none;
+position: fixed;
+z-index: 5;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: black;
+}
+
+.modal-conteudo {
+background-color: #181818;
+margin: 30px auto;
+padding: 20px;
+width: 60%;
+color: wheat;
+}
